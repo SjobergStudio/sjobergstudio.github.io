@@ -1,0 +1,125 @@
+body {
+    margin: 0px;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+button {
+    padding: 12px 25px;
+    font-family: 'Didact Gothic', sans-serif;
+    border: none;
+    background-color: rgb(208, 187, 148);
+    color: white;
+    border-radius: 2px;
+    margin-right: 12px;
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+body > header {
+    padding: 15px;
+    background-color: rgb(208, 187, 148);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+body > header > h1 {
+    font-family: 'Vampiro One', cursive;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    margin-left: 120px;
+}
+
+body > header > nav {
+    margin-right: 120px;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+}
+
+body > header > nav > ul {
+    list-style: none;
+    color: white;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+body > header > nav > ul > li > a {
+    color: white;
+    margin-right: 45px;
+}
+
+body > main {
+    margin: 0px auto;
+    width: 70%;
+}
+
+body > main > section > h2 {
+    font-size: 42px;
+}
+
+#above-the-fold {
+    margin-top: 180px;
+    margin-bottom: 180px;
+    
+}
+
+body > main > article {
+    margin-bottom: 60px;
+}
+
+body > main > article > h2 {
+    font-size: 42px;
+    text-align: center;
+}
+
+#plan-container {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.plans {
+    flex: 20%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#range-container {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.range {
+    flex: 49%;
+    display: flex;
+    
+}
+
+#range-text {
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px
+}
+
+#range-text > h3 {
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+
+.range-image {
+    width: 150px;
+    height: 150px;
+}
+
+body > footer {
+    background-color: rgb(208, 187, 148);
+}
